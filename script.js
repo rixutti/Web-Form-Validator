@@ -10,12 +10,16 @@ form.addEventListener('submit', (event) => {
   const firstname = form.elements['first-name'];
   const firstnameText = firstname.value;
   const firstnameError = document.getElementById('firstname-error');
+  let status1 = false;
+  let status2 = false;
+  let status3 = false;
+  let status4 = false;
+
 
   if (firstnameText === '') {
     firstnameError.textContent = 'Please enter your first name.';
     firstnameError.style.color = 'red';
     firstname.style.borderColor = 'red';
-    status1 = false;
     firstname.focus();
   }
   else {
@@ -32,7 +36,6 @@ form.addEventListener('submit', (event) => {
     lastnameError.textContent = 'Please enter your last name.';
     lastnameError.style.color = 'red';
     lastname.style.borderColor = 'red';
-    status2 = false;
     lastname.focus();
   }
   else {
@@ -49,7 +52,6 @@ form.addEventListener('submit', (event) => {
     emailError.textContent = 'Please enter your email.';
     emailError.style.color = 'red';
     email.style.borderColor = 'red';
-    status3 = false;
     email.focus();
   }
   else {
@@ -65,7 +67,6 @@ form.addEventListener('submit', (event) => {
   if (selectedCountry === 'noCountry') {
     countryErrorText.innerHTML = 'Please select your country.';
     countryErrorText.style.color = 'red';
-    status4 = false;
   }
   else if (selectedCountry !== 'noCountry') {
     countryErrorText.innerHTML = '';
