@@ -1,0 +1,24 @@
+{
+  "name": "riku-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "image.jpg",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rixutti/Web-Form-Validator.git"
+  },
+  "author": "Riku Vakkuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rixutti/Web-Form-Validator/issues"
+  },
+  "homepage": "https://github.com/rixutti/Web-Form-Validator#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}

@@ -1,0 +1,15 @@
+body { 
+    background: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    image-rendering: auto;
+}
+
+.boxed {
+    background-color: lightsalmon;
+    width: 340px;
+    border-radius: 20px;
+  }
+  
